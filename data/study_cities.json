@@ -1,0 +1,170 @@
+[
+  {
+    "city": "Baltimore",
+    "country": "US",
+    "land_area_km2": 238.41,
+    "latitude": 39.2905,
+    "longitude": -76.6104,
+    "directory": "baltimore"
+  },
+  {
+    "city": "Brussels-Capital Region",
+    "country": "BE",
+    "land_area_km2": 161,
+    "latitude": 50.8260,
+    "longitude": 4.3802,
+    "directory": "brussels_capital_region"
+  },
+  {
+    "city": "Cape Town",
+    "country": "ZA",
+    "land_area_km2": 2461,
+    "latitude": -33.9221,
+    "longitude": 18.4231,
+    "directory": "cape_town"
+  },
+  {
+    "city": "Chesapeake",
+    "country": "US",
+    "land_area_km2": 909,
+    "latitude": 36.7682,
+    "longitude": -76.2875,
+    "directory": "chesapeake"
+  },
+  {
+    "city": "Christchurch",
+    "country": "NZ",
+    "land_area_km2": 1426,
+    "latitude": -43.5320,
+    "longitude": 172.6366,
+    "directory": "christchurch"
+  },
+  {
+    "city": "Harrisburg",
+    "country": "US",
+    "land_area_km2": 31,
+    "latitude": 40.2732,
+    "longitude": -76.8867,
+    "directory": "harrisburg"
+  },
+  {
+    "city": "London",
+    "country": "GB",
+    "land_area_km2": 1572,
+    "latitude": 51.5072,
+    "longitude": -0.1276,
+    "directory": "london"
+  },
+  {
+    "city": "Los Angeles",
+    "country": "US",
+    "land_area_km2": 1299,
+    "latitude": 34.0549,
+    "longitude": -118.2426,
+    "directory": "los_angeles"
+  },
+  {
+    "city": "Manchester",
+    "country": "GB",
+    "land_area_km2": 116,
+    "latitude": 53.7808,
+    "longitude": -2.2426,
+    "directory": "manchester"
+  },
+  {
+    "city": "Melbourne",
+    "country": "AU",
+    "land_area_km2": 38,
+    "latitude": -37.8136,
+    "longitude": 144.9631,
+    "directory": "melbourne"
+  },
+  {
+    "city": "Norfolk",
+    "country": "US",
+    "land_area_km2": 250,
+    "latitude": 36.8508,
+    "longitude": -76.2859,
+    "directory": "norfolk"
+  },
+  {
+    "city": "Ottawa",
+    "country": "CA",
+    "land_area_km2": 2790,
+    "latitude": 45.4201,
+    "longitude": -75.7003,
+    "directory": "ottawa"
+  },
+  {
+    "city": "Philadelphia",
+    "country": "US",
+    "land_area_km2": 367,
+    "latitude": 39.9526,
+    "longitude": -75.1652,
+    "directory": "philadelphia"
+  },
+  {
+    "city": "Pittsburg",
+    "country": "US",
+    "land_area_km2": 151,
+    "latitude": 40.4387,
+    "longitude": -79.9972,
+    "directory": "pittsburg"
+  },
+  {
+    "city": "Sao Paulo",
+    "country": "BR",
+    "land_area_km2": 1521,
+    "latitude": -23.5558,
+    "longitude": -46.6396,
+    "directory": "sao_paulo"
+  },
+  {
+    "city": "Tokyo",
+    "country": "JP",
+    "land_area_km2": 2194,
+    "latitude": 35.6764,
+    "longitude": 139.6500,
+    "directory": "tokyo"
+  },
+  {
+    "city": "Victoria",
+    "country": "CA",
+    "land_area_km2": 19,
+    "latitude": 48.4284,
+    "longitude": -123.3656,
+    "directory": "victoria"
+  },
+  {
+    "city": "Virginia Beach",
+    "country": "US",
+    "land_area_km2": 634,
+    "latitude": 36.8516,
+    "longitude": -75.9792,
+    "directory": "virginia_beach"
+  },
+  {
+    "city": "Washington D.C.",
+    "country": "US",
+    "land_area_km2": 68,
+    "latitude": 38.9073,
+    "longitude": -77.0369,
+    "directory": "washington_dc"
+  },
+  {
+    "city": "Wellington",
+    "country": "NZ",
+    "land_area_km2": 290,
+    "latitude": -41.2924,
+    "longitude": 174.7787,
+    "directory": "wellington"
+  },
+  {
+    "city": "Winnipeg",
+    "country": "CA",
+    "land_area_km2": 462,
+    "latitude": 49.8954,
+    "longitude": -97.1385,
+    "directory": "winnipeg"
+  }
+]
