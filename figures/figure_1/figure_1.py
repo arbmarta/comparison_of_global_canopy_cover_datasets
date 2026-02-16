@@ -4,9 +4,7 @@ import cartopy.feature as cfeature
 import pandas as pd
 import numpy as np
 
-# -----------------------------
 # Create DataFrame
-# -----------------------------
 data = [
     ("Winnipeg", "CA", 462, 49.8954, -97.1385),
     ("Cape Town", "ZA", 2461, -33.9221, 18.4231),
@@ -33,15 +31,12 @@ data = [
 
 df = pd.DataFrame(data, columns=["City", "Country", "LandArea", "Latitude", "Longitude"])
 
-# Normalize marker sizes for visual clarity
-size_scale = 0.5
-sizes = np.sqrt(df["LandArea"]) * 10  # sqrt scaling improves visual balance
+# Scale marker sizes (sqrt scaling for visual balance)
+sizes = np.sqrt(df["LandArea"]) * 10
 
-# -----------------------------
-# Create Figure
-# -----------------------------
-fig = plt.figure(figsize=(14, 7))
-ax = plt.axes(projection=ccrs.Robinson())  # Good global projection for papers
+# Create figure
+fig = plt.figure(figsize=(12, 7))
+ax = plt.axes(projection=ccrs.Robinson())
 ax.set_global()
 
 # Add map features
@@ -50,26 +45,19 @@ ax.add_feature(cfeature.OCEAN, facecolor='white')
 ax.add_feature(cfeature.BORDERS, linewidth=0.5)
 ax.add_feature(cfeature.COASTLINE, linewidth=0.5)
 
-# Plot points
-scatter = ax.scatter(
+# Plot points sized by land area
+ax.scatter(
     df["Longitude"],
     df["Latitude"],
     s=sizes,
-    c=df["LandArea"],
-    cmap="viridis",
+    color="steelblue",
     alpha=0.8,
     edgecolor="black",
     transform=ccrs.PlateCarree()
 )
 
-# Colorbar
-cbar = plt.colorbar(scatter, orientation='horizontal', pad=0.05)
-cbar.set_label("Land Area (km²)")
-
-# Title
-plt.title("Global Distribution of Selected Cities\nMarker Size Scaled by Land Area", fontsize=14)
-
 # Save high-resolution figure
-plt.savefig("global_cities_map.png", dpi=300, bbox_inches='tight')
+plt.savefig("figure_1.png", dpi=450, bbox_inches='tight')
+plt.savefig("figure_1.pdf", dpi=450, bbox_inches='tight')
 
 plt.show()
